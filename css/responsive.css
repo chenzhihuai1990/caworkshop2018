@@ -1,0 +1,214 @@
+/*Medium Screen*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ClassyCountdown-wrapper > div {
+        width: calc(23% - 20px);
+    }
+    .reg-form form .half {
+        margin-right: 12px;
+    }
+    .section-title h2 {
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .about-title {
+        padding: 214px 0;
+    }
+    .schedule {
+        padding: 178px 0;
+    }
+    .speakers-sections {
+        padding: 166px 0;
+    }
+    .registration-sections {
+        padding: 69px 0;
+    }
+    .faq-sections {
+        padding: 138px 0;
+    }
+    .event-sections {
+        padding: 110px 0;
+    }
+
+}
+
+/*Tablet Screen:768px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title h2 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .registration-sections {
+        padding: 74px 0;
+    }
+    .welcome-text h2 {
+        font-size: 50px;
+    }
+    .ClassyCountdown-wrapper > div {
+        width: calc(25% - 20px);
+    }
+    .about-title {
+        padding: 208px 0;
+    }
+    .about-title {
+        padding: 208px 0;
+    }
+    .price-sections {
+        padding: 218px 0;
+    }
+    .speakers-sections {
+        padding: 123px 0;
+    }
+    .reg-form form .half {
+        margin-right: 9px;
+    }
+    .faq-sections {
+        padding: 157px 0;
+    }
+    .event-sections {
+        padding: 80px 0;
+    }
+    .blog-text h2 a {
+        font-size: 16px;
+    }
+    .blog-sections {
+        padding: 194px 0;
+    }
+    .schedule {
+        padding: 203px 0;
+    }
+    .date {
+        font-size: 16px;
+        height: 60px;
+        width: 60px;
+    }
+    .b-speaker {
+        padding: 0px
+    }
+    .b-speaker > h2 {
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .b-speaker_social_icon {
+        font-size: 18px;
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+/*Mobile Layout:320px*/
+
+@media only screen and (max-width: 767px) {
+    .about-us-area {
+        position: relative;
+        padding: 20px 0px 80px;
+    }
+    .location-info {
+        margin-top: 20px;
+        margin-left: 50%;
+        margin-right: auto;
+        transform: translate(-50%, 0);
+    }
+
+    .container {
+        width: 300px;
+    }
+    .welcome-text h2 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .ClassyCountdown-wrapper > div {
+        width: 42%;
+    }
+    canvas {
+        height: 95px;
+        width: 95px;
+    }
+    .ClassyCountdown-wrapper .ClassyCountdown-value {
+        top: 63%;
+        font-size: 30px !important;
+        line-height: 25px;
+    }
+    .social-icon {
+        margin-top: 20px;
+    }
+    .our-service {
+        margin-top: 0px;
+    }
+    .section-title,
+    .schedule {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .session-items {
+        margin-bottom: 20px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .schedule-area .nav-tabs > li > a {
+        font-size: 14px;
+        padding: 10px 7px;
+    }
+    .bottom-speakers {
+        margin-top: 0px;
+    }
+    .single-speakers,
+    .single-price-items,
+    .single-blog {
+        margin-bottom: 20px;
+    }
+    .reg-form input[type="text"],
+    .submit,
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+    .submit {
+        margin-top: 15px;
+    }
+    .main-heading-left {
+        font-size: 12px;
+    }
+    .test-text {
+        width: inherit;
+    }
+    .contact-form .submit {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .date {
+        font-size: 16px;
+        height: 60px;
+        width: 60px;
+    }
+    .b-speakers-wappers {
+        display: none;
+    }
+}
+
+/*Width Mobile Layout:480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .welcome-text h2 {
+        font-size: 33px;
+    }
+    .ClassyCountdown-days,
+    .ClassyCountdown-hours,
+    .ClassyCountdown-minutes,
+    .ClassyCountdown-seconds {
+        height: 120px !important;
+    }
+
+}
+
+}

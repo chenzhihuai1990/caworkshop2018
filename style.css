@@ -1,0 +1,642 @@
+/*===============================
+
+Template Name: AKDIN
+Author: DevItems
+Author URI: www.devitems.com
+Version: 1.0
+Coder: Krishna
+
+--------------------------------
+
+CSS INDEX
+=========
+
+1. Base CSS
+2. Header Area
+3. Counter Down Jquery Customize
+4. Introduction Area
+5. Program Area
+6. Participants Area
+7. ScrollToTop Area
+8. Footer Area
+================================*/
+
+/* =============================
+1. Base CSS
+================================*/
+
+.floatleft {
+    float: left
+}
+
+.floatright {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0px solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fix {
+    overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    /* font-size: 18px; */
+    line-height: 28px;
+}
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    outline: none;
+}
+
+/* =============================
+2. Header Area
+================================*/
+
+.welcome-text h2 {
+    color: #ffffff;
+    font-size: 37px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.place i {
+    color: #ff9900;
+    margin-right: 5px;
+}
+
+.place p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.header-area,
+.display-table {
+    background-image: url(img/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.header-area:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(47, 53, 59, 0.6);
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.all-soon {
+    position: relative;
+    z-index: 9999;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.display-table-cell {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/* =============================
+3. Counter Down Jquery Customize
+================================*/
+
+.ClassyCountdown-wrapper .ClassyCountdown-value {
+    display: block;
+    left: 0;
+    line-height: 38px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 19px;
+    margin-top: -55px !important;
+}
+
+.ClassyCountdown-wrapper {
+    margin-left: -25px;
+}
+
+canvas {
+    height: 150px;
+    width: 150px;
+}
+
+.ClassyCountdown-value {
+    font-size: 40px !important;
+}
+
+.ClassyCountdown-wrapper > div {
+    display: inline-block;
+    margin: 0px 5px;
+    position: relative;
+    width: calc(17% - 20px);
+    text-align: center;
+}
+
+/* =============================
+4. About Us Area
+================================*/
+
+.about-us-area {
+    position: relative;
+    padding: 60px 0px 180px;
+/*    background-image: url(http://thegem2.codexthemes.netdna-cdn.com/thegem/wp-content/uploads/2016/03/7-19.jpg);*/
+/*    background-repeat: no-repeat;*/
+    /*
+    background-image: url(img/84.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+
+.about-us-area p {
+    font-size: 16px;
+}
+
+.about-us-area:before{
+    position: absolute;
+    left: 0px;
+    top:0px;
+/*    background-color: rgba(255,255,255,0.5);*/
+    width: 100%;
+    height: 100%;
+    content: "";
+/*    z-index: 1;*/
+}
+
+.section-title {
+    padding: 79px 0px;
+    background-color: #ff9900;
+    outline-offset: -10px;
+    outline: 2px dashed #fff;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.section-title h2 span {
+    display: block;
+}
+
+.about-text {
+    margin-top: 10px;
+    background-color: #f6f9f9;
+    padding: 10px;
+}
+
+.about-text p {
+    margin-bottom: 0px;
+    color: #000
+}
+
+/* =============================
+5. Session Area
+================================*/
+
+.session-area {
+    background-color: #ff9900;
+    padding: 25px 0px;
+}
+
+.session-items {
+    background-color: #f6f9f9;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.session-items span.icon {
+    display: block;
+    font-size: 30px;
+}
+
+.session-items h2 {
+    font-size: 18px;
+}
+
+.session-items h2 span {
+    color: #ff9900;
+    font-size: 35px;
+    margin-right: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* =============================
+6. Schedule Area
+================================*/
+
+.schedule-area {
+    padding: 40px 0px;
+    background-color: #f8f8f8;
+    background-image: url(img/cloud_bg.jpg);
+    /*    min-height: 800px;*/
+    /*
+
+    background-image:url(img/t-2.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	position:relative;
+	padding:80px 0px;
+	overflow:hidden;
+*/
+}
+
+/*
+.schedule-area:before{
+    background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+*/
+
+.schedule {
+    padding: 171px 0;
+}
+
+.tab-menu-my {
+    background-color: #ff9900;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.con-schedule-time .nav > li > a:focus,
+.nav > li > a:hover {
+    background: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.schedule-area .nav > li > a:focus,
+.nav > li > a:hover {
+    background: none;
+}
+
+.schedule-area .nav-tabs > li > a {
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 0px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+
+.schedule-area ul.nav {
+    text-align: left;
+}
+
+.logo ul {
+    margin-top: 16px;
+}
+
+.schedule-area .panel-group .panel + .panel {
+    margin-top: 10px;
+}
+
+.schedule-area .nav-tabs > li {
+    display: inline-block;
+    position: relative;
+}
+
+.schedule-area .nav-tabs {
+    border-bottom: 0px solid #dddddd;
+    text-align: center;
+}
+
+.schedule-area .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    background-color: #fff;
+    border-width: 0px;
+    color: #ff9900;
+    cursor: default;
+    border-radius: 0px;
+}
+
+.schedule-area .nav-tabs > li {
+    float: none;
+}
+
+.schedule-area .nav-tabs > li {
+    margin-bottom: 0px;
+}
+
+.schedule-area .panel-default {
+    border: none;
+}
+
+.schedule-area .panel-heading {
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
+    padding: 10px 15px;
+}
+
+.schedule-area .panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border: 1px solid #ff9900;
+}
+
+.schedule-area .panel-default > .panel-heading {
+    background-color: #f6f9f9;
+    cursor: pointer;
+}
+
+.schedule-area .panel-group .panel {
+    margin-bottom: 14px;
+}
+
+.main-heading-left {
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.panel-body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.schedule-area .panel-group {
+    margin-bottom: 0px;
+}
+
+.main-heading,
+.name {
+    background-color: #ff9900;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-weight: 700;
+    height: 70px;
+    line-height: 18px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 7px 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.name {
+    padding: 19px 10px;
+    text-transform: capitalize;
+}
+
+.main-heading span {
+    display: block;
+}
+
+
+
+/* =============================
+14. Contact Us Area
+================================*/
+
+
+
+.contact-form input {
+    width: 100%;
+    float: none;
+}
+
+.contact-form textarea {
+    width: 100%;
+    float: none;
+    padding-top: 10px;
+    height: 200px;
+    resize: none;
+}
+
+/* =============================
+15. ScrollToTop Area
+================================*/
+
+.top {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    font-size: 18px;
+    color: #ff9000;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #f6f9f9;
+    cursor: pointer;
+    margin: 0px;
+    border: 1px solid #ff9000;
+    text-align: center;
+    display: none;
+    z-index: 999999;
+}
+
+/* =============================
+16. Footer Area
+================================*/
+
+.footer-area {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    /*    border-top: solid 40px #ff9000;*/
+    padding: 30px 0;
+    /*	background-color:#ff9000;*/
+    text-align: center;
+    background-color: #282828;
+}
+
+.footer-text h4 {
+    font-family: 'Viga', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    /* margin-top: 20px; */
+}
+
+.footer-text p {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #908F8F;
+    /*    color:#666;*/
+}
+
+.footer-text a {
+    /*	text-transform:uppercase;*/
+    color: #908F8F;
+}
+
+.logo a {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #908F8F;
+    font-family: 'Black Ops One', cursive;
+}
+
+.logo li a {
+    text-transform: none;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.footer-area2 {
+    padding-top: 10px;
+    background: #211E1E;
+}
+
+.footer-area2 p,
+.footer-area2 a {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #908F8F;
+}
+
+.location-info {
+    padding-top: 2em;
+    background: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    z-index: 10;
+    width: 300px;
+    padding-bottom: 2em;
+}
+
+.location-info li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.logo li {
+    list-style: none;
+}
+
+.logo ul {
+    padding-left: 0;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    /* color: white; */
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3,
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.participants-area {
+    padding: 40px 0;
+    /*    min-height: 700px;*/
+}
+
+.welcome-text h3 {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.fixed-background {
+    background-image: url(img/4.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0px;
+    overflow: hidden;
+    z-index: 2;
+    color: white;
+}
+
+.fixed-background:before {
+    background: rgba(0, 0, 0, 0.35) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
